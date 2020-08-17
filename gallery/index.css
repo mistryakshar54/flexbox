@@ -1,0 +1,20 @@
+body{
+    background-color: orange;
+    color : black;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.gutter > .cell{
+    margin: 0% 3%;
+    padding: 3%;
+}
+
+.grid > .cell{
+    background-color: white;
+    box-shadow: 5px 5px 10px 0px black;
+}
+.grid{
+    display: flex;
+    
+}

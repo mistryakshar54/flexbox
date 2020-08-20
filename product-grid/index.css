@@ -41,9 +41,12 @@ body{
     font-size: 1.3em;
     font-weight: 700;
     display: flex;
+    height: 400px;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
-    /* margin: 2%; */
-    box-shadow: 0 2px 4px 0 rgba(48,56,97,.2)
+    box-shadow: 0 2px 4px 0 rgba(48,56,97,.2);
 }
 .card{
     font-size: 1.3em;
@@ -53,13 +56,15 @@ body{
     box-shadow: 0 2px 4px 0 rgba(48,56,97,.2)
 }
 .sidebar > li {
-    margin: 5% 0%;
+    margin: 5%;
 }
 
 .product-grid{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     flex: 6;
+    justify-content: space-around;
 }
 
 
